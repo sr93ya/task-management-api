@@ -24,3 +24,5 @@ The application runs on http://localhost:8080.
 ## Build the Project
 
 mvn clean package
+
+CI Pipeline: Automated using Jenkins with Maven and JUnit tests.

@@ -26,3 +26,19 @@ The application runs on http://localhost:8080.
 mvn clean package
 
 CI Pipeline: Automated using Jenkins with Maven and JUnit tests.
+
+## Example API Requests
+
+### Check Application Health
+
+curl http://localhost:8080/health
+
+### Retrieve All Tasks
+
+curl http://localhost:8080/todos
+
+### Create a New Task
+
+curl -X POST http://localhost:8080/todos \
+-H "Content-Type: application/json" \
+-d '{"title":"Complete DevOps Assignment"}'

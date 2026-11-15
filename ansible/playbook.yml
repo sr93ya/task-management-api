@@ -1,0 +1,8 @@
+---
+- name: Deploy Task Management API
+  hosts: appservers
+  become: yes
+  gather_facts: yes
+
+  roles:
+    - task_api

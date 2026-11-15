@@ -1,0 +1,8 @@
+[program:{{ app_name }}]
+command=/usr/bin/java -jar {{ app_install_dir }}/{{ app_jar_name }}
+directory={{ app_install_dir }}
+autostart=true
+autorestart=true
+startsecs=10
+stdout_logfile=/var/log/task-api.log
+stderr_logfile=/var/log/task-api-error.log

@@ -1,0 +1,5 @@
+---
+app_name: task-api
+app_install_dir: /opt/task-api
+app_jar_name: task-api.jar
+app_port: 8080

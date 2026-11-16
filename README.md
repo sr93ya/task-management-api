@@ -1,3 +1,4 @@
+cat > README.md <<'EOF'
 # Task Management REST API
 
 A simple REST API developed using Java Spring Boot and Maven.
@@ -25,7 +26,9 @@ The application runs on http://localhost:8080.
 
 mvn clean package
 
-CI Pipeline: Automated using Jenkins with Maven and JUnit tests.
+## CI Pipeline
+
+Automated using Jenkins with Maven and JUnit tests.
 
 ## Example API Requests
 
@@ -42,3 +45,8 @@ curl http://localhost:8080/todos
 curl -X POST http://localhost:8080/todos \
 -H "Content-Type: application/json" \
 -d '{"title":"Complete DevOps Assignment"}'
+
+## Documentation Update
+
+Project documentation is maintained through the feature branch workflow.
+EOF

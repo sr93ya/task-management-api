@@ -24,3 +24,6 @@ The application runs on http://localhost:8080.
 ## Build the Project
 
 mvn clean package
+
+## Documentation Update
+Project documentation is maintained through the feature branch workflow.
